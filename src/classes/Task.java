@@ -31,7 +31,7 @@ public class Task extends JPanel
 		
 		taskName = new JTextField("Your Task Here");
 		taskName.setBorder(BorderFactory.createEmptyBorder());
-		taskName.setBackground(Color.gray);
+		taskName.setBackground(Color.cyan);
 		
 		this.add(taskName,BorderLayout.CENTER);
 		done = new JButton("done");
