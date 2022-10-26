@@ -14,11 +14,15 @@ public class AppFrame extends JFrame
 	private List list;
 	private ButtonPanel btnPanel;
 	
+	//เพิ่มขึ้นมาเอง
+	private JFrame f;
+	
 	private JButton addTask;
 	private JButton clear;
 	//constructor
 	AppFrame()
 	{
+		
 		this.setSize(400, 700);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setVisible(true);

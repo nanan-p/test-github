@@ -6,5 +6,6 @@ public class ToDoList
 	{
 		new AppFrame();
 		//new TitleBar();
+		
 	}
 }
