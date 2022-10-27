@@ -24,6 +24,7 @@ public class AppFrame extends JFrame
 	{
 		
 		this.setSize(400, 700);
+		this.setTitle("My to-do list");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setVisible(true);
 		
