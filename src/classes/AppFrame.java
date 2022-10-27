@@ -4,6 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
@@ -14,8 +15,7 @@ public class AppFrame extends JFrame
 	private List list;
 	private ButtonPanel btnPanel;
 	
-	//เพิ่มขึ้นมาเอง
-	private JFrame f;
+	
 	
 	private JButton addTask;
 	private JButton clear;
@@ -27,6 +27,9 @@ public class AppFrame extends JFrame
 		this.setTitle("My to-do list");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setVisible(true);
+		
+		ImageIcon image = new ImageIcon("logo.png");
+		this.setIconImage(image.getImage());
 		
 		title = new TitleBar();
 		list = new List();
